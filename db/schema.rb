@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140107065742) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "flights", force: true do |t|
     t.datetime "Fecha"
     t.string   "Destino"
