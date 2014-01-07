@@ -11,11 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140107044244) do
+ActiveRecord::Schema.define(version: 20140107065742) do
 
   create_table "flights", force: true do |t|
-    t.string   "start_location"
-    t.string   "end_location"
+    t.datetime "Fecha"
+    t.string   "Destino"
+    t.string   "Socio"
+    t.string   "Detalles"
+    t.string   "Status"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

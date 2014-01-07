@@ -1,9 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  start_location: MyString
-  end_location: MyString
+  Fecha: 2014-01-07 01:57:42
+  Destino: MyString
+  Socio: MyString
+  Detalles: MyString
+  Status: MyString
 
 two:
-  start_location: MyString
-  end_location: MyString
+  Fecha: 2014-01-07 01:57:42
+  Destino: MyString
+  Socio: MyString
+  Detalles: MyString
+  Status: MyString
